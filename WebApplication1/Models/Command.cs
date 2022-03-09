@@ -1,0 +1,10 @@
+﻿    namespace WebApplication1.Models
+{
+    public class Command
+    {
+        public int Id { get; set; }
+        public string HowTo{ get; set; }
+        public string Line { get; set; }
+        public string Plattform { get; set; }
+    }
+}
